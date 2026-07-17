@@ -1,0 +1,120 @@
+/* =========================================
+              Habit Tracker 
+   ========================================= */
+
+.habit-tracker {
+
+    border: 1px solid var(--background-modifier-border);
+
+    border-radius: 1px;
+
+    padding: 0px;
+
+    margin: 5px 0;
+
+    background: var(--background-primary);
+
+}
+
+/* Habit 和 Completion 标题加粗 */
+.habit-tracker th:first-child,
+.habit-tracker th:nth-child(2) {
+    font-weight: 700;
+}
+
+
+/* Habit 名称加粗 */
+.habit-tracker td:first-child {
+    font-weight: 700;
+}
+
+/* Completion 数值加粗 */
+.habit-tracker td:nth-child(2) {
+    font-weight: 700;
+}
+
+
+/* 给组件外层容器开启横向滚动，这是 sticky 生效的前提 */
+.block-language-dataviewjs {
+    overflow-x: auto !important;
+}
+
+/* 表格整体紧凑布局 */
+.block-language-dataviewjs table {
+    font-size: 13px !important;
+    border-collapse: separate !important;
+    border-spacing: 0 !important;
+    width: auto !important; 
+    max-width: none !important;      /* 防止最大宽度限制 */
+    table-layout: fixed !important;  /* 启用固定列宽布局 */
+}
+
+/* 缩小日期格子间隙 */
+.block-language-dataviewjs th,
+.block-language-dataviewjs td {
+    padding: 10px 0 !important; /* 紧凑内边距 */
+    text-align: center !important;
+    white-space: nowrap !important;
+    line-height: 1.0 !important;
+
+/* 强行锁定日期格子的宽度 */
+    min-width: 32px !important;      
+    width: 32px !important;          
+    max-width: 32px !important;      
+    
+    border-bottom: 1px solid var(--border-width) var(--background-modifier-border) !important;
+    border-right: 1px solid var(--border-width) var(--background-modifier-border) !important;
+}
+
+/* =========================================
+   第 1 列 Habit 固定 (宽度 120px)
+   ========================================= */
+.block-language-dataviewjs th:first-child,
+.block-language-dataviewjs td:first-child {
+    position: sticky !important;
+    left: 0px !important;
+    min-width: 120px !important;
+    max-width: 120px !important;
+    width: 120px !important;
+    background-color: var(--background-primary) !important;
+    z-index: 11 !important;
+    text-align: left !important;
+    padding-left: 8px !important;
+    border-right: 2px solid var(--background-modifier-border) !important; /* 粗边框分界线 */
+}
+
+/* =========================================
+   第 2 列 Completion 固定 (紧跟在 120px 后面)
+   ========================================= */
+.block-language-dataviewjs th:nth-child(2),
+.block-language-dataviewjs td:nth-child(2) {
+    position: sticky !important;
+    left: 120px !important; /* 刚好等于第一列的宽度 */
+    min-width: 100px !important;
+    max-width: 100px !important;
+    width: 100px !important;
+    background-color: var(--background-primary) !important;
+    z-index: 12 !important;
+    border-right: 2px solid var(--background-modifier-border) !important; /* 粗边框分界线 */
+}
+
+/* =========================================
+   表头固定 (避免滚动时表头消失)
+   ========================================= */
+.block-language-dataviewjs thead th {
+    position: sticky !important;
+    top: 0 !important;
+    background-color: var(--background-secondary) !important; /* 稍深的表头背景色 */
+    z-index: 10 !important;
+}
+
+/* 左上角交叉处的两个格子 (层级最高，防止被遮挡) */
+.block-language-dataviewjs thead th:first-child {
+    left: 0 !important;
+    z-index: 12 !important;
+}
+
+.block-language-dataviewjs thead th:nth-child(2) {
+    left: 120px !important;
+    z-index: 12 !important;
+}

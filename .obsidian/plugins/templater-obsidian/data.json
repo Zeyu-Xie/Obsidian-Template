@@ -1,0 +1,59 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "03Resources/00Obsidian/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": true,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "00PeriodicNotes",
+      "template": "03Resources/00Obsidian/Templates/TP01_Diary.md"
+    },
+    {
+      "folder": "02Areas/01Reading",
+      "template": "03Resources/00Obsidian/Templates/TP02_Reading.md"
+    },
+    {
+      "folder": "02Areas/02Film Library",
+      "template": "03Resources/00Obsidian/Templates/TP03_Film.md"
+    },
+    {
+      "folder": "02Areas/03Music Library",
+      "template": "03Resources/00Obsidian/Templates/TP04_Music.md"
+    },
+    {
+      "folder": "02Areas/04Travel",
+      "template": "03Resources/00Obsidian/Templates/TP05_Travel.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "intellisense_render": 1,
+  "ignore_folders_on_creation": [
+    {
+      "folder": ""
+    }
+  ]
+}

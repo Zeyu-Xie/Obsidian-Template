@@ -1,0 +1,126 @@
+/* =====================
+   Dashboard Layout
+   ===================== */
+
+
+.time-dashboard {
+
+    display:grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap:15px;
+
+}
+
+
+
+/* 卡片 */
+
+.dashboard-card {
+
+    border:
+    1px solid var(--background-modifier-border);
+
+    border-radius:12px;
+
+    padding:15px;
+
+    background:
+    var(--background-primary);
+
+}
+
+
+
+/* 标题 */
+
+.dashboard-card h1 {
+
+    margin-top:0;
+
+    margin-bottom:12px;
+
+}
+
+
+
+/* 时间模块 */
+
+.time-item {
+
+    line-height:1.8;
+
+}
+
+
+
+/* 进度条 */
+
+.time-item span {
+
+    font-family:monospace;
+
+    letter-spacing:2px;
+
+}
+
+
+
+/* 事件列表 */
+
+.event-item {
+
+    display:flex;
+
+    justify-content:space-between;
+
+    padding:8px 0;
+
+    border-bottom:
+    1px solid var(--background-modifier-border);
+
+}
+
+
+
+.event-item:last-child {
+
+    border-bottom:none;
+
+}
+
+
+
+/* 小屏幕自动上下排列 */
+
+@media(max-width:700px){
+
+    .time-dashboard {
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+.day-number{
+
+    color:#2563eb;
+
+    font-weight:700;
+
+    font-size:1.1em;
+
+}
+
+
+.event-number{
+
+    color:#ea580c;
+
+    font-weight:700;
+
+    font-size:1.1em;
+
+}
