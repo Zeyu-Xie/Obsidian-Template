@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "🏠 Home.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "🏠 Home"
             }
           },
           {
@@ -145,13 +145,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md",
+                "file": "🏠 Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Home 的大纲"
+              "title": "🏠 Home 的大纲"
             }
           },
           {
@@ -248,8 +248,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "3529b6911dce55e1",
   "lastOpenFiles": [
+    "01Projects/Example Project.md",
+    "欢迎.md",
+    "🏠 Home.md",
     "02Areas/04Travel/00Travel.md",
     "02Areas/03Music Library/00Music.md",
     "02Areas/02Film Library/00Film.md",
@@ -266,7 +269,6 @@
     "02Areas/01Reading/attachments",
     "03Resources/00Obsidian/Templates/TP02_Reading.md",
     "00PeriodicNotes/2026/2026.md",
-    "Home.md",
     "00PeriodicNotes/ImportantDates.md",
     "00PeriodicNotes/未命名/未命名",
     "00PeriodicNotes/未命名",
@@ -281,8 +283,6 @@
     "00PeriodicNotes/2026/202606/20260624.md",
     "00PeriodicNotes/2026/202606/20260625.md",
     "00PeriodicNotes/2026/202606/20260626.md",
-    "00PeriodicNotes/2026/202606/20260628.md",
-    "00PeriodicNotes/2026/202606/20260627.md",
     "03Resources/00Obsidian/CSS_Scripts/view.css",
     "00.PeriodicNotes/2026/202607",
     "00.PeriodicNotes/2026",

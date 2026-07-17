@@ -27,7 +27,7 @@ await dv.view(
 >[!col]
 >
 >>[!Tips]+ <u> PROJECTS </u> 
->>- [[Project001|📌 Project001]]
+>>- [[Example Project|📌 Example Project]]
 >
 >>[!note]+ <u> NOTES </u>
 >>- `$='[['+moment().format("YYYY")+'|📝 年度笔记]]'`
