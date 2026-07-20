@@ -88,7 +88,7 @@ Periodic Notes 回答的是另一个问题：**「事情发生在什么时候？
 
 ## 仓库特色
 
-![[Full_view.png]]
+![Full_view](./03Resources/00Obsidian/Assets/Full_view.png)
 
 相比一个普通的 Obsidian Vault，本模板更加注重实际使用体验。其中包含以下核心模块：
 
