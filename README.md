@@ -164,4 +164,14 @@ Periodic Notes 回答的是另一个问题：**「事情发生在什么时候？
 
 ## 安装教程
 
-
+1. **下载仓库**
+    - 点击 **Code → Download ZIP**
+    - 解压到本地
+2. **打开 Obsidian**
+    - 选择 **Open folder as vault**
+    - 打开下载后的文件夹
+3. **安装并启用插件**
+    - 根据 README 中的插件列表安装所需社区插件
+    - 安装完成后，点击 **Trust author and enable plugins（信任作者并启用插件）**
+4. **开始使用**
+    - 打开 **Home.md**，即可进入 Dashboard 开始体验整个 Vault。
